@@ -7,7 +7,7 @@
     @foreach( $datas as $index => $data )
     <li>
         {{ $index+1 }}. 
-      <a href="/action/{{$data->id}}/data">{{ $data->name }}</a>
+      <a href="/action/{{$data->username}}/data">{{ $data->name }} 
     </li>
     @endforeach
   </ul>

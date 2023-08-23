@@ -4,5 +4,6 @@
   
   @section('container')
   <br>
+  <br>
    @include('components.input')
   @endsection

@@ -18,4 +18,11 @@ class Tamu extends Model
       'waktu_kunjungan',
       'catatan',
       ];
+      
+      public function getRouteKeyName()
+      {
+        return 'username';
+      }
 }
+
+

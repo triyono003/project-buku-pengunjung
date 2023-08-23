@@ -17,12 +17,12 @@ class TamuFactory extends Factory
     public function definition(): array
     {
         return [
-           'username' => $this->faker->sentence(),
+           'username' => $this->faker->username,
            'name' => $this->faker->sentence(),
            'email' => $this->faker->sentence(),
            'phone' => $this->faker->sentence(),
            'tujuan_kunjungan' => $this->faker->sentence(),
-           'tanggal_kunjungan' => $this->faker->sentence(),
+           'waktu_kunjungan' => $this->faker->sentence(),
            'catatan' => $this->faker->sentence(),
         ];
     }
